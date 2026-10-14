@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>PaseaDog</title>
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Navegacion Principal">
+            <a href="index.html">Inicio</a>
+            <a href="#walkers">Paseadores</a>
+            <a href="#how-it-works">Como funciona</a>
+            <a href="#help">Ayuda</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="walkers">
+            <h1>Paseadores</h1>
+            <p>Encuentra paseadores de confianza para tu perro.</p>
+            <img
+                src="images/PaseaElPerro.jpeg"
+                alt="Paseador caminando con un perro"
+            >
+
+            <form action="#" method="get">
+
+                <div>  
+                    <label for="location">Ubicación</label>
+                    <input id="location" name="location" type="text" placeholder="Ej: Alajuela">
+
+                </div>
+                
+                <div>   
+                    <label for="date">Fecha</label>
+                    <input id="date" name="date" type="date">
+                </div>
+
+                <div>   
+                    <label for="dog-size">Tamaño del perro</label>
+                    <select id="dog-size" name="dog-size">
+                        <option value="small">Pequeño</option>
+                        <option value="medium">Mediano</option>
+                        <option value="large">Grande</option>
+                    </select>
+                </div>
+                <button type="submit">Buscar</button>
+
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>PaseaPerro</p>
+
+        <nav aria-label="Enlaces del pie de página">
+            <a href="#">Contacto</a>
+            <a href="#">Política de privacidad</a>
+            <a href="#">Términos y condiciones</a>
+        </nav>
+
+        <p> 2026 PaseaPerro</p>
+    </footer>
+
+</body>
+
+</html> 
